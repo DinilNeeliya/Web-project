@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nava.css">
+    <link rel="stylesheet" href="newform.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Query form</title>
+</head>
+<body>
+    <div class="container" style="margin-top: -30px;">
+        <div class="web">
+            <section class="logo">
+                <img src="logo.jpg" alt="company logo">  
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="mainpage.html">Home</a></li>
+                    <li><a href="#">Buy Products</a></li>
+                    <li><a href="commentform.html">Query Form</a></li>
+                    <li><a href="#">Quiz</a></li>
+                    <li><a href="#">Student details</a></li>
+                    <li><a href="">Site map</a></li>
+                    <li><a href="">Gallery</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+        <div class="container ">
+        
+            <h1 id="title">
+                Query Form
+            </h1>
+            <p id="description">
+                Thank you for for taking the time to give us your feedback
+            </p>
+        
+        <form action="mailto:dinilneeliya2002@gmail.com" id="survey-form">
+        
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone" class="formControl" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address <span class="clue"></span></label>
+                <input type="text" name="address" id="address" class="formControl" placeholder="Enter your address">
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Subject</p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >-Select your subject-</option>
+                    <option value="Delivery">Delivery</option>
+                    <option value="Product">Product</option>
+                    <option value="Website">Website</option>
+                    <option value="Complains">Complains</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+             <div class="form-group">
+                <p id="quest">How satisfied were you with our website today?Choose from 0 to 10,where 0 is extremely dissatisfied and 10 is extremely satisfied.</p>
+                <label for="">
+                    <input type="radio" name="source" value="1"
+                    class="inputRadio"
+                    checked>1
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="2"
+                    class="inputRadio"
+                    >2
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="3"
+                    class="inputRadio"
+                    > 3
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="4"
+                    class="inputRadio"
+                    > 4
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="5"
+                    class="inputRadio"
+                    > 5
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="6"
+                    class="inputRadio"
+                    > 6
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="7"
+                    class="inputRadio"
+                    > 7
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="8"
+                    class="inputRadio"
+                    > 8
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="9"
+                    class="inputRadio"
+                    > 9
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="10"
+                    class="inputRadio"
+                    > 10
+                </label>
+            </div>
+            <div class="form-group">
+                <p id="quest">How did you want to complete the task today?(optional)</p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >-please select-</option>
+                    <option value="Delivery">Phone</option>
+                    <option value="Product">Website</option>
+                    <option value="Website">Webchat</option>
+                    <option value="Complains">Social media</option>
+                    <option value="other">Email</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <p id="quest">If you had to complete this task again,how would you prefer to do it?(optional)</p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >-please select-</option>
+                    <option value="Delivery">Phone</option>
+                    <option value="Product">Website</option>
+                    <option value="Website">Webchat</option>
+                    <option value="Complains">Social media</option>
+                    <option value="other">Email</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Please could you tell us your reasons for giving this rating?</p>
+                <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder=""></textarea>
+            </div>
+
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <h1>&nbsp;</h1>
+    <footer class="site-footer">
+        <div class="content">
+            <div class="footer-grids">
+                <div class="footer one" style="height: 235px; border-right: 2px solid #6f76f1; padding: 0 40px 0 0;">
+                    <h3 style="text-align: right;">Sportsnews ©️ </h3>
+                    <p style="text-align: right">57, Ramakrishna Road <br>Colombo 06, Sri Lanka.</p>
+                    <p style="padding-top: 20px; text-align: right">With time sports have become a major part of our life.Keep fit and have fun at it.</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="footer three">
+                    <h3 style="padding-left: 40px">About us</h3>
+                    <ul>
+                        <p>Join us on this journey exporing different sports.</p>
+                        <a href="#">
+                            <button class="button">Site Map</button>
+                        </a>
+                        <a href="PageEditor.html">
+                            <button class="button">Editor CV</button>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer two" style="padding-left: 100px;">
+                    <h3>Connect with us</h3>
+                    <ul>
+                        <li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+                        <li><a class="fb1" href="#"><i></i>Follow us on Instagram</a></li>
+                    </ul>
+                    <a href="commentform.html">
+                        <button class="button" style="margin-top: 27px;">Give us feedback</button>
+                    </a>
+                </div>
+    
+                <div class="clear"></div>
+            </div>
+            <div class="copy-right-grids">
+                <div class="copy-left">
+                    <p class="footer-gd">Sportsnews ©️ </p>
+                </div>
+                <div class="copy-right">
+                    <ul>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Quiz</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

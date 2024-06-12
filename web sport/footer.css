@@ -1,0 +1,161 @@
+/*-- main --*/
+.content {
+    width: 100%;
+    font-family: Arial, serif;
+}
+
+.footer-grids {
+    background: #79b3f0;
+    height: 265px;
+    padding-left: 40px;
+}
+
+p.footer-gd {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+p.footer-gd a {
+    color: #030000;
+}
+
+p.footer-gd a:hover {
+    color: #ff0000;
+}
+
+.button {
+    margin: 20px 15px 15px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #4723d7;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #f46e6e;
+}
+
+.footer {
+    float: left;
+}
+
+.footer h3 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Viga', sans-serif;
+}
+
+.footer.one {
+    width: 30%;
+}
+
+.footer.three {
+    width: 23%;
+}
+
+.footer.one p {
+    color: hsl(0, 0%, 0%);
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer.three p {
+    color: hsl(0, 0%, 0%);
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer.two {
+    width: 23%;
+    margin: 0 8%;
+}
+
+.footer.two ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer.two ul li {
+    list-style-type: none;
+    display: block;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.footer.two ul li a {
+    color: hsl(0, 0%, 0%);
+    display: block;
+}
+
+.footer.two ul li a.fb {
+    background: url('social2.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+
+.footer.two ul li a.fb1 {
+    background: url('social1.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+
+.footer.three ul li {
+    list-style-type: none;
+    display: block;
+    color: #0d0303;
+    font-size: 14px;
+    line-height: 2.5em;
+}
+
+.footer.three ul li span {
+    display: block;
+}
+
+.copy-right-grids {
+    padding: 10px;
+    background: #2a5de9;
+    height: 60px;
+}
+
+.copy-left {
+    float: left;
+}
+
+.copy-right {
+    font-size: 14px;
+    float: right;
+}
+
+.copy-right ul li {
+    list-style-type: none;
+    display: inline-block;
+    border-left: 1px solid #000000;
+    padding: 0 12px;
+}
+
+.copy-right ul li a {
+    color: #000000;
+    font-size: 13px;
+}
+
+.copy-right ul li:nth-child(1) {
+    border: none;
+}
+
+.footer.two ul li a.fb:hover {
+    background: url('social3hover.png') no-repeat 0px 4px;
+}
+
+.footer.two ul li a.fb1:hover {
+    background: url('social2hover.png') no-repeat 0px 4px;
+}
+
+.footer.two ul li a:hover, .copy-right ul li a:hover, .footer.three ul li a:hover {
+    color: #ff0000;
+}
+
